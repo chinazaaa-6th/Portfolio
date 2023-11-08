@@ -5,16 +5,11 @@
   --primary-color: #6c63ff;
   --secondary-color: #c6b8c8;
 }
-.container {
-  margin: 40px;
-  text-align: var(--text-align);
-}
 .hero {
-  background-color: #f9f7fe;
+  background-color: #e8e7ee;
   text-align: var(--text-align);
   padding: 140px 20px;
 }
-
 .name {
   text-align: var(--text-align);
   font-family: "Playfair Display", serif;
@@ -33,7 +28,8 @@
 .hero h2 {
   text-align: var(--text-align);
   font-family: "Poppins";
-  font-weight: normal;
+  font-weight: bold;
+  font-style: italic;
   line-height: 2;
   font-size: 24px;
   color: #bbb3b3;
@@ -48,24 +44,30 @@
   text-decoration: none;
   padding: 18px 30px;
   border-radius: 10px;
+  line-height: 27px;
   color: white;
   background: var(--primary-color);
 }
-#linkk {
+.primary-link {
   text-decoration: none;
-  padding: 20px 10px;
-  border-radius: 5px;
   color: var(--primary-color);
   border: var(--border);
+  border-radius: 7px;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 p {
   padding: 20px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
 }
-@media (max-width: 576px) {
+.container {
+  text-align: center;
+}
+@media (max-width: 600px) {
   body {
     max-width: 100% !important;
     height: 100% !important;
@@ -81,7 +83,7 @@ p {
     font-weight: 600;
   }
   h2 {
-    font-size: 25px;
+    font-size: 20px !important;
   }
   p {
     text-align: left;
