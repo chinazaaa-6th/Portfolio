@@ -9,31 +9,34 @@
   margin: 40px;
   text-align: var(--text-align);
 }
-.head {
+.hero {
   background-color: #f9f7fe;
-  margin: 50px auto;
-  padding-bottom: ;
+  text-align: var(--text-align);
+  padding: 140px 20px;
 }
 
 .name {
   text-align: var(--text-align);
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 96px;
+  font-size: 70px;
   margin: 0;
 }
-h2 {
-  font-family: "Poppins";
+.hero p {
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   text-align: var(--text-align);
+  margin: 0;
   font-style: italic;
-  font-weight: 300;
+  font-weight: normal;
 }
-h4 {
+.hero h2 {
   text-align: var(--text-align);
   font-family: "Poppins";
+  font-weight: normal;
+  line-height: 2;
   font-size: 24px;
-  opacity: 1;
+  color: #bbb3b3;
 }
 .ample {
   display: flex;
@@ -54,10 +57,6 @@ h4 {
   border-radius: 5px;
   color: var(--primary-color);
   border: var(--border);
-}
-.container {
-  margin: 40px;
-  text-align: center;
 }
 p {
   padding: 20px;
