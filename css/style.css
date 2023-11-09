@@ -34,12 +34,43 @@
   font-size: 24px;
   color: #bbb3b3;
 }
+.container-about {
+  text-align: var(--text-align);
+}
+.about-section {
+  padding: 5px 20px;
+}
+.container-about h1 {
+  font-size: 35px;
+  line-height: 80px;
+  font-family: Playfair Display, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.container-about h2 {
+  text-align: var(--text-align);
+  font-family: "Poppins";
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  font-size: 18px;
+  color: #bbb3b3;
+}
+.container-about p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-align: var(--text-align);
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+}
 .ample {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   text-transform: capitalize;
 }
+
 #link {
   text-decoration: none;
   padding: 18px 30px;
