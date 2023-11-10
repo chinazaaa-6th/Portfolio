@@ -134,6 +134,21 @@
   font-weight: bold;
   font-style: italic;
 }
+.container-contact {
+  text-align: var(--text-align);
+  margin: 50px;
+  background-color: #e8e7ee;
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.container-contact a {
+  text-decoration: none;
+  color: black;
+  transition: ease-in-out;
+}
+.container-contact a:hover {
+  color: #6c63ff;
+}
 .container {
   text-align: center;
 }
