@@ -169,12 +169,16 @@ footer .mail:hover {
   padding: 5px 5px;
 }
 footer .social a {
-  margin:0 20px;
+  margin: 0 20px;
   color: #6c63ff;
   padding: 10px;
   border-radius: 50%;
   font-size: 18px;
   background: #ece7e7;
+}
+footer .social a:hover {
+  background: #6c63ff;
+  color: #bbb3b3;
 }
 @media (max-width: 600px) {
   body {
@@ -212,5 +216,8 @@ footer .social a {
   }
   #contact {
     display: block;
+  }
+  .bottom {
+    display: none;
   }
 }
