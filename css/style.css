@@ -137,6 +137,9 @@
   font-weight: bold;
   font-style: italic;
 }
+.cover {
+  margin-bottom: 30px;
+}
 .container-contact {
   text-align: var(--text-align);
   margin: 50px;
