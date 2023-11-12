@@ -116,6 +116,9 @@
   font-size: 18px;
   color: black;
 }
+.container-about {
+  margin-bottom: 30px;
+}
 .container-work {
   text-align: var(--text-align);
   margin: 50px;
@@ -151,9 +154,27 @@
 .container {
   text-align: center;
 }
-footer {
+footer .mail {
+  text-decoration: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  color: #757373;
+  font-style: italic;
+  font-weight: 800;
+  transition: ease-in-out;
+  margin-bottom: 20px;
+}
+footer .mail:hover {
+  color: rgb(206, 129, 129);
+  padding: 5px 5px;
+}
+footer .social a {
+  margin:0 20px;
+  color: #6c63ff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  background: #ece7e7;
 }
 @media (max-width: 600px) {
   body {
